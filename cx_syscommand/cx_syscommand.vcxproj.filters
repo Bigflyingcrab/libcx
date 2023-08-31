@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\cx\cx\common\cx_common_fun.cpp">
+      <Filter>cx\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\configfile\cx_configfile.cpp">
+      <Filter>cx\configfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_http_controller.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_http_request.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_http_response.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_http_server.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_http_stream.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\http\cx_websocket_client.cpp">
+      <Filter>cx\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\json\json_reader.cpp">
+      <Filter>cx\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\json\json_value.cpp">
+      <Filter>cx\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\json\json_writer.cpp">
+      <Filter>cx\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\loger\cx_loger.cpp">
+      <Filter>cx\loger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\time\cx_time.cpp">
+      <Filter>cx\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\thread\cx_thread_semaphore.cpp">
+      <Filter>cx\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\thread\cx_thread_threadpool.cpp">
+      <Filter>cx\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\thread\cx_thread_timer.cpp">
+      <Filter>cx\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\sql\cx_sql_mysql.cpp">
+      <Filter>cx\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\sql\cx_sql_pool.cpp">
+      <Filter>cx\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cx\cx\socket\cx_socket_tcp.cpp">
+      <Filter>cx\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="cs_client.cpp" />
+    <ClCompile Include="cs_server.cpp" />
+    <ClCompile Include="..\cx\cx\common\cx_command_proxy.cpp">
+      <Filter>cx\common</Filter>
+    </ClCompile>
+    <ClCompile Include="cs_httpserver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cx">
+      <UniqueIdentifier>{71c42c27-d017-48ce-831d-2cea925c5ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\common">
+      <UniqueIdentifier>{98e8d4b5-e7cb-49d3-beee-22c536cd051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\configfile">
+      <UniqueIdentifier>{af0c11e9-b001-41d3-afac-f715d08c72f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\http">
+      <UniqueIdentifier>{4b0467b5-90c6-4b48-b7f1-c1ec9fef6264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\json">
+      <UniqueIdentifier>{22883749-01fa-47c3-bf01-2ea4ecedb2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\loger">
+      <UniqueIdentifier>{2f8a792e-185c-4a6a-8545-cb5a2e1d1576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\socket">
+      <UniqueIdentifier>{75a22813-5769-426b-b516-d0b6353ce54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\sql">
+      <UniqueIdentifier>{c2489dc4-0486-4af4-aecc-5b540af1b492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\thread">
+      <UniqueIdentifier>{9121381b-b5f5-4357-af6c-7605b2be0ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\time">
+      <UniqueIdentifier>{0c10dbd7-ec53-4f4d-b875-f22cd68985b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cx\cx\cx.h">
+      <Filter>cx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\common\cx_common.h">
+      <Filter>cx\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\common\cx_common_fun.h">
+      <Filter>cx\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\common\cx_guid.h">
+      <Filter>cx\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\configfile\cx_configfile.h">
+      <Filter>cx\configfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_controller.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_entity.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_request.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_response.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_server.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_http_stream.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\http\cx_websocket_client.h">
+      <Filter>cx\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\allocator.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\assertions.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\config.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\forwards.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\json.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\json_features.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\json_tool.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\reader.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\value.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\version.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\json\writer.h">
+      <Filter>cx\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\loger\cx_loger.h">
+      <Filter>cx\loger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\time\cx_time.h">
+      <Filter>cx\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread_blockqueue.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread_container.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread_semaphore.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread_threadpool.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\thread\cx_thread_timer.h">
+      <Filter>cx\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\sql\cx_sql.h">
+      <Filter>cx\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\sql\cx_sql_helper.h">
+      <Filter>cx\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\sql\cx_sql_mysql.h">
+      <Filter>cx\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\sql\cx_sql_pool.h">
+      <Filter>cx\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\socket\cx_socket.h">
+      <Filter>cx\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\socket\cx_socket_common.h">
+      <Filter>cx\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cx\cx\socket\cx_socket_tcp.h">
+      <Filter>cx\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="cs_client.h" />
+    <ClInclude Include="cs_server.h" />
+    <ClInclude Include="..\cx\cx\common\cx_command_proxy.h">
+      <Filter>cx\common</Filter>
+    </ClInclude>
+    <ClInclude Include="cs_httpserver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cx\cx\json\json_valueiterator.inl">
+      <Filter>cx\json</Filter>
+    </None>
+    <None Include="cs.conf" />
+    <None Include="run.sh" />
+    <None Include="stop.sh" />
+  </ItemGroup>
+</Project>
